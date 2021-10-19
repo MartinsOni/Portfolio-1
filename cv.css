@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&family=Cinzel+Decorative:wght@700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    margin: 0 15%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.container{
+    margin: 5rem;
+    background-color: white;
+    padding: 5rem;
+}
+.header{
+    display: flex;
+} 
+.image img{
+    width: 20rem;    
+}
+.name{
+    font-size: 2rem;
+    padding: 0 3rem; 
+}
+.name h1, h3{
+    font-family: 'Cinzel Decorative', cursive;
+    color: rgb(116, 10, 10);
+}
+.name p{
+    font-family: 'Arima Madurai', cursive;
+    font-size: bold;
+}
+.link a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: rgb(116, 10, 10);
+}
+.skill{
+    display: flex;
+    font-size: 2rem;
+    padding: 3rem 8rem ;
+}
+h2{
+    color: rgb(116, 10, 10);
+    font-family: 'Cinzel Decorative', cursive;
+}
+.skill-list{
+    font-family: 'Arima Madurai', cursive;
+    list-style-type: square;
+}
+.experience-1{
+    display: flex;
+    font-size: 2rem;   
+}
+h4{
+    font-size: 1.8rem;
+    font-family: 'Arima Madurai', cursive;
+}
+.experience-2{
+    display: flex;
+    font-size: 2rem;
+    font-family: 'Arima Madurai', cursive;
+}
+.date-2 li{
+    list-style-type: square;
+}
+.education{
+    padding: 3rem 0;
+}
+@media (max-width: 1100px){
+    .container{
+        margin: 0;
+        padding: 2rem 0;
+        
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .link a{
+        padding: 1.5rem;
+        font-size: 2rem;
+    }
+    .experience-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .skill{
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+        text-align: center;
+    }
+}
+@media (min-width: 1101px){
+    .container{
+        box-shadow: .0rem .1rem .3rem .5rem rgb(0, 0, 0, .2);
+    }
+    body{
+        background-image: linear-gradient(to right,rgb(230, 227, 227),white);
+    }
+}

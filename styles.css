@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&family=Cinzel+Decorative:wght@700&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+body{
+    background-image: url(https://developer.gnome.org/hig/_images/hig.svg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+}
+.top-image{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    padding: 15px;
+}
+.top-header{
+    text-align: center;
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.top-menu{
+    background-image: linear-gradient(to right, black , rgb(116, 10, 10), black);
+    
+}
+#top-contact{
+    padding: 20px;
+}
+
+.top-nav{
+    font-size: 60px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.top-nav a{
+    color: white;
+}
+.top-nav1 a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+.top-nav1 a{
+    display: none;
+}  
+.fa-bars:hover{
+    background-color: white;
+    color: black;
+    /* display: block; */
+    border-radius: 10px;
+}
+.top-menu2{
+    background-image: linear-gradient(to right, black , rgb(116, 10, 10), black);
+    font-size: 40px;
+}
+.top-menu2 a{
+    color: white;
+}
+.top-menu2 ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.top-menu2 li{
+    list-style-type: none;
+    padding: 10px;
+}
+.top-menu2 li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+ 
+.container{
+    display: flex;
+    position: relative;
+    padding-top: 15px;
+    opacity: 88%; 
+    background-size: cover;
+}
+.details{
+    border-radius: 20px;
+    border-right: 10px solid rgb(116, 10, 10);
+    background-color: white; 
+    margin-top: 100px;
+    box-shadow: .3rem .1rem .1rem .9rem rgb(0, 0, 0, .2);
+}
+.picture{
+   padding: 40px 10px 40px ;
+   text-align: center;
+   color: black;
+}
+.picture img{
+    padding: 10px 40px;
+    width: 300px;
+}
+.header{
+    font-family: 'Cinzel Decorative', cursive;
+}
+.nav {
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bolder;
+    text-align: center;
+}
+.aside-menu,.aside-menu-2{
+    animation: navigation 20s;
+}
+@keyframes navigation{
+    0%{
+        opacity: 0;
+      }
+      100%{
+        opacity: 1;
+      }
+}
+.aside-menu ul li a{
+    margin: 0px 30px;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+}
+.aside-menu ul li a:hover,
+.aside-menu-2 ul li a:hover
+{
+    color: rgb(116, 10, 10);
+}
+.aside-menu ul li{
+    padding: 7px;
+    list-style-type: none;
+}
+.aside-menu-2{
+    margin: 30px 0 ;
+}
+.aside-menu-2 ul li a{
+    margin: 0 30px;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+}
+.aside-menu-2 ul li{
+    padding: 7px;
+    list-style-type: none;
+}
+
+.details-2{
+    font-size: 30px;
+    margin-top: 370px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Arima Madurai', cursive;
+}
+.details-2 p{
+    font-size: 27px;
+    padding: 15px 0 0;
+}
+.header-2{
+    padding: 15px;
+    background-image: linear-gradient(to right, black , rgb(116, 10, 10), black);
+    color: white;
+    box-shadow: .3rem .1rem .1rem .9rem rgb(0, 0, 0, .2);
+    border: 5px solid black;
+}
+.menu-3 ul li a{
+    font-size: 25px;
+    padding: 30px 0;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;   
+}
+.menu-3 ul li{
+    list-style-type: none;
+    padding: 5px;
+    border: solid 3px;
+    width: 160px;
+    margin: 20px 0;
+    background-color: rgb(116, 10, 10);
+    border-radius: 10px;
+}
+.menu-3 ul{
+    padding: 100px 0 0 100px; 
+}
+.contact{
+   justify-content: center;
+   display: flex;
+   margin-top: 85px;
+   
+}
+.contact ul{
+    align-self: center;
+}
+.contact ul li{
+    list-style-type: none;
+    margin: 25px;
+    font-size: 35px;
+}
+.contact ul li a{
+    color: rgb(36, 31, 31);
+}
+@media (max-width: 415px) {
+    .top-menu2 ul {
+        display: none;
+        align-items: center;
+        text-decoration: none;
+        font-size: 25px;
+        flex-direction: column;
+    }
+    .details, .contact{
+        display: none;
+    }
+    body{
+        background-position: center;
+    }
+    .details-2{
+        margin: auto;
+        padding: 0;
+    }
+    .header-2 h3, p{
+        background-color: white;
+        color: black;
+    }
+    .menu-3 ul{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 2px;
+    }
+}
+@media (min-width: 416px) and (max-width: 800px) {
+   .top-nav a{
+        display: none;
+    
+    } 
+    .details, .contact{
+        display: none;
+    }
+    body{
+        background-position: center;
+    }
+    .details-2{
+        margin: auto;
+        padding: 0;
+    }
+    .top-nav1 ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .top-nav1 ul li{
+        list-style-type: none;
+    }
+    .menu-3 ul{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 5px;
+    }
+    .header-2 h3, p{
+        background-color: white;
+        color: black;
+    }
+    /* .top-menu2 ul a{
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+    }  */
+}
+@media (min-width: 801px){
+    .top-menu{
+        display: none;
+    }
+}
+
+
