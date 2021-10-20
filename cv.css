@@ -95,6 +95,7 @@ h4{
     .skill{
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
     h2{
         text-align: center;
