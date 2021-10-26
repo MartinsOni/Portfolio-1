@@ -48,14 +48,13 @@ body{
     text-decoration: none;
     color: white;
 }
-.top-nav1 a{
+.top-nav1 ul li{
     display: none;
 }  
-.fa-bars:hover{
-    background-color: white;
+#top:focus+.top-nav1 ul li{
     color: black;
-    /* display: block; */
-    border-radius: 10px;
+    display: block; 
+    opacity: 70%;
 }
 .top-menu2{
     background-image: linear-gradient(to right, black , rgb(116, 10, 10), black);
