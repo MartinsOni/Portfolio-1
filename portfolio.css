@@ -39,14 +39,17 @@
     text-decoration: none;
     color: white;
 }
-.top-nav1 a{
+.top-nav1 li{
     display: none;
+}
+.top-nav1 ul{
+    border: 3px solid white;
+    border-radius: 15px;
 }  
 #top:focus+.top-nav1 ul li{
     color: black;
     display: block; 
-    opacity: 70%;
-    border: 1px solid rgb(116, 10, 10); 
+    opacity: 70%; 
 } 
 .top-menu2{
     background-image: linear-gradient(to right, black , rgb(116, 10, 10), black);
@@ -94,7 +97,7 @@
 }
 .header{
     font-family: 'Cinzel Decorative', cursive;
-    box-shadow: .3rem .1rem .1rem .9rem rgb(0, 0, 0, .2);
+    /* box-shadow: .3rem .1rem .1rem .9rem rgb(0, 0, 0, .2); */
 }
 .nav {
     font-family: 'Arima Madurai', cursive;
@@ -140,6 +143,11 @@
     text-decoration: underline;
     padding: 20px; 
 }
+.portfolio div{
+    transform: translate(3s);
+    box-shadow: .0rem .1rem .3rem .5rem rgb(0, 0, 0, .2);
+    margin: 15px 0 25px;
+}
 .portfolio p{
     font-family: 'Arima Madurai', cursive;
     font-size: 25px;
@@ -158,6 +166,7 @@
    gap: 20px;
    padding: 30px;
    transform: translate(3);
+   box-shadow: .0rem .1rem .3rem .5rem rgb(0, 0, 0, .2);
 }
 .assignment1 :hover{
     font-size: 10px;
@@ -264,7 +273,7 @@
     background-color: gray;
     box-shadow: none;
     box-shadow: .0rem .1rem .3rem .5rem rgb(0, 0, 0, .2);
-} 
+}
 .exe10{
      grid-area: px1;
      border: 1px solid;

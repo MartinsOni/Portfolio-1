@@ -50,12 +50,15 @@ body{
 }
 .top-nav1 ul li{
     display: none;
-}  
+}
+.top-nav1 ul{
+    border: 3px solid white;
+    border-radius: 15px;
+} 
 #top:focus+.top-nav1 ul li{
     color: black;
     display: block; 
     opacity: 70%;
-    border: 1px solid rgb(116, 10, 10); 
 } 
 /* .top-nav1 ul{
     border: 2px solid black; 
@@ -192,7 +195,12 @@ body{
     border-radius: 10px;
 }
 .menu-3 ul{
-    padding: 100px 0 0 100px; 
+    padding: 100px 0 0 100px;
+    border: 20px solid rgb(29, 9, 9); 
+    background-color: white;
+}
+.menu-3{
+    background-image: linear-gradient(to right, black , rgb(116, 10, 10), black);
 }
 .contact{
    justify-content: center;
