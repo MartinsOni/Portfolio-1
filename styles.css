@@ -8,10 +8,9 @@
 
 }
 body{
-    background-image: url(https://developer.gnome.org/hig/_images/hig.svg);
-    background-repeat: no-repeat; 
-    background-size: cover;
-    
+    background-image: url(https://webxloo.com/wp-content/uploads/2018/09/ui-ux/ui-ux.png);
+    background-repeat: no-repeat;
+    background-size: 90%;  
 }
 .top-image{
     width: 50%;
@@ -56,8 +55,8 @@ body{
     color: black;
     display: block; 
     opacity: 70%;
-    /* border: 1px solid rgb(116, 10, 10); */
-}
+    border: 1px solid rgb(116, 10, 10); 
+} 
 /* .top-nav1 ul{
     border: 2px solid black; 
     background-color: white;
