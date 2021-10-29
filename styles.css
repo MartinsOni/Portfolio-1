@@ -10,7 +10,9 @@
 body{
     background-image: url(https://webxloo.com/wp-content/uploads/2018/09/ui-ux/ui-ux.png);
     background-repeat: no-repeat;
-    background-size: 90%;  
+    background-size: 90%;
+    transition-duration: 2s;
+    transform: 20deg;  
 }
 .top-image{
     width: 50%;
@@ -194,13 +196,14 @@ body{
     background-color: rgb(116, 10, 10);
     border-radius: 10px;
 }
+.menu-3 ul li:hover{
+    transition-duration: 10s;
+    border-radius: 400px;
+    width: 250px;
+    transform: rotateY(360deg);
+}
 .menu-3 ul{
     padding: 100px 0 0 100px;
-    border: 20px solid rgb(29, 9, 9); 
-    background-color: white;
-}
-.menu-3{
-    background-image: linear-gradient(to right, black , rgb(116, 10, 10), black);
 }
 .contact{
    justify-content: center;
@@ -232,7 +235,7 @@ body{
     }
     body{
         background-position: center;
-    }
+    } 
     .details-2{
         margin: auto;
         padding: 0;
@@ -241,10 +244,17 @@ body{
         background-color: white;
         color: black;
     }
+    .details-2{
+        background-image: linear-gradient(to right, black , rgb(116, 10, 10), black);
+    }
     .menu-3 ul{
         display: flex;
-        justify-content: space-evenly;
-        padding-left: 2px;
+        flex-direction: column;
+        align-items: center;
+        padding: 2px;
+        margin: 0 20px 20px;
+        background-color: white;
+        justify-content: center;
     }
 }
 @media (min-width: 416px) and (max-width: 800px) {
@@ -273,16 +283,16 @@ body{
         display: flex;
         justify-content: space-evenly;
         padding-left: 5px;
+        background-color: white;
+        margin: 0 20px 20px;
     }
     .header-2 h3, p{
         background-color: white;
         color: black;
     }
-    /* .top-menu2 ul a{
-        background-color: white;
-        color: black;
-        border-radius: 15px;
-    }  */
+    .details-2{
+        background-image: linear-gradient(to right, black , rgb(116, 10, 10), black);
+    }
 }
 @media (min-width: 801px){
     .top-menu{
