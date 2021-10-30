@@ -125,7 +125,7 @@ body{
     animation: navigation 20s;
 }
 @keyframes navigation{
-    0%{
+       50%{
         opacity: 0;
       }
       100%{
@@ -190,7 +190,7 @@ body{
 .menu-3 ul li{
     list-style-type: none;
     border: solid 3px;
-    width: 160px;
+    width: 150px;
     margin: 20px 0;
     background-color: rgb(116, 10, 10);
     border-radius: 10px;
