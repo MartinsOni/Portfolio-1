@@ -122,7 +122,7 @@ body{
     text-align: center;
 }
 .aside-menu,.aside-menu-2{
-    animation: navigation 20s;
+    animation: navigation 10s; 
 }
 @keyframes navigation{
        50%{
@@ -196,7 +196,7 @@ body{
     border-radius: 10px;
 }
 .menu-3 ul li:hover{
-    transition-duration: 20s;
+    transition-duration: 30s;
     border-radius: 400px;
     transform: rotateY(360deg);
     width: 230px;
