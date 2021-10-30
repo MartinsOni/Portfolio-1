@@ -82,7 +82,7 @@ h4{
     .header{
         display: flex;
         flex-direction: column;
-        text-align: center;
+        text-align: center; 
     }
     .link a{
         padding: 1.5rem;
@@ -95,10 +95,13 @@ h4{
     .skill{
         display: flex;
         flex-direction: column;
-        text-align: center;
+        margin: 10px;
     }
     h2{
         text-align: center;
+    }
+    .none{
+        display: none;
     }
 }
 @media (min-width: 1101px){
@@ -107,5 +110,9 @@ h4{
     }
     body{
         background-image: linear-gradient(to right,rgb(230, 227, 227),white);
+    }
+    .link{
+        display: flex;
+        flex-direction: column;
     }
 }
