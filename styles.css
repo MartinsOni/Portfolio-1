@@ -9,7 +9,7 @@
 }
 body{
     background-image: url(https://webxloo.com/wp-content/uploads/2018/09/ui-ux/ui-ux.png);
-    /* background-repeat: no-repeat; */
+    /* background-repeat: no-repeat;  */
     background-size: 90%;
     transform: 360deg; 
     transition: 10s; 
